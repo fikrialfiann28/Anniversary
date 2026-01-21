@@ -6,7 +6,7 @@ function updateCountdown() {
     // Format: Tahun, Bulan (0-11, jadi 0=Januari, 1=Februari, dst), Hari, Jam, Menit, Detik
     // Contoh: new Date(2026, 2, 1, 0, 0, 0) = 1 Maret 2026 jam 00:00:00
     
-    const anniversaryDate = new Date(2025, 0, 28, 0, 0, 0); // 28 Februari 2026
+    const anniversaryDate = new Date(2026, 0, 28, 0, 0, 0); // 28 Februari 2026
     
     // ATAU gunakan format string (pastikan formatnya benar):
     // const anniversaryDate = new Date('March 1, 2025 00:00:00');
@@ -165,4 +165,5 @@ document.head.appendChild(style);
 // CONSOLE MESSAGE
 // ============================================
 console.log('%c💕 Countdown to Our Special Day 💕', 'font-size: 20px; color: #667eea; font-weight: bold;');
+
 console.log('%cDibuat dengan cinta untuk kamu ❤️', 'font-size: 14px; color: #764ba2;');
